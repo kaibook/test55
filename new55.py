@@ -31,17 +31,17 @@ nalc = alc-(0.19*time)
 
 result = ""
 if nalc <= 0.04:
-    result = "爽快"
+    result = "ゆっくりペース"
 elif (0.04 < nalc <= 0.10):
-    result = "ほろ酔い"
+    result = "ほろ酔いペース"
 elif (0.10 < nalc <= 0.15):
-    result = "止め時"
+    result = "少し落ち着いて！"
 elif (0.15 < nalc <= 0.30):
-    result = "もう止めよう"
+    result = "ペース早い"
 elif (0.30 < nalc <= 0.40):
-    result = "明日に響くよ"
+    result = "危ないよ"
 elif  0.40 < nalc:
-    result = "助けてください"
+    result = "救急車レベル"
 
 st.write("血中アルコール濃度:", nalc)
 st.write("判定：", result)
