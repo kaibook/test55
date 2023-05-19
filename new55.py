@@ -19,7 +19,7 @@ x4 = st.number_input("日本酒(合)",0,100,0)
 x5 = st.number_input("焼酎(杯)",0,100,0)
 
 time = st.number_input("経過時間",0,100,0)
-weight = st.number_input("体重(kg)",0,100,1)
+weight = st.number_input("体重(kg)",0,100,50)
 
 al1 = x1*200+y1*350+z1*700
 al2 = x2*200+y2*350+z2*700
