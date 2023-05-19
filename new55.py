@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.title("飲酒ペースメーカー(ウィドマーク法)")
+st.title("飲酒ペースメーカー")
+st.write("ウィドマーク法を使用し、飲酒のペースを「ゆっくり」、「ほろ酔い」、「少し早い」、「早い」、「危険」、「昏睡レベル」の6つに分類しました")
+st.write("※これはあくまで目安です。あなたの体質や健康状態により個人差が生じます。無理をせず自分のペースを保ちましょう")
 
 x1 = st.number_input("ビール小ジョッキ(杯)",0,100,0)
 y1 = st.number_input("ビール中ジョッキ(杯)",0,100,0)
@@ -31,17 +33,17 @@ nalc = alc-(0.19*time)
 
 result = ""
 if nalc <= 0.04:
-    result = "ゆっくりペース"
+    result = "ゆっくり"
 elif (0.04 < nalc <= 0.10):
-    result = "ほろ酔いペース"
+    result = "ほろ酔い"
 elif (0.10 < nalc <= 0.15):
-    result = "少し落ち着いて"
+    result = "少し早い"
 elif (0.15 < nalc <= 0.30):
-    result = "ペース早い！"
+    result = "早い！"
 elif (0.30 < nalc <= 0.40):
-    result = "危ないよ!!"
+    result = "危険!!"
 elif  0.40 < nalc:
-    result = "救急車レベル⚠"
+    result = "昏睡レベル"
 
 st.write("血中アルコール濃度:", nalc)
 st.write("判定：", result)
