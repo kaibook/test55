@@ -35,13 +35,13 @@ if nalc <= 0.04:
 elif (0.04 < nalc <= 0.10):
     result = "ほろ酔いペース"
 elif (0.10 < nalc <= 0.15):
-    result = "少し落ち着いて！"
+    result = "少し落ち着いて"
 elif (0.15 < nalc <= 0.30):
-    result = "ペース早い"
+    result = "ペース早い！"
 elif (0.30 < nalc <= 0.40):
-    result = "危ないよ"
+    result = "危ないよ!!"
 elif  0.40 < nalc:
-    result = "救急車レベル"
+    result = "救急車レベル⚠"
 
 st.write("血中アルコール濃度:", nalc)
 st.write("判定：", result)
