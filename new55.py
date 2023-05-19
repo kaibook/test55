@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("アルコールペースメーカー")
+st.title("Alcohol pacemaker")
 st.write("ウィドマーク法を使用し、飲酒のペースを「ゆっくり」「ほろ酔い」「少し早い」「早い」「警告」「危険」の6つに分類しました。")
 st.write("※これはあくまで目安です。体質や健康状態により個人差が生じます。")
 
