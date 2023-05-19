@@ -35,11 +35,11 @@ if nalc <= 0.04:
 elif (0.04 < nalc <= 0.10):
     result = "ほろ酔い"
 elif (0.10 < nalc <= 0.15):
-    result = "そろそろ止めよう"
+    result = "止め時"
 elif (0.15 < nalc <= 0.30):
-    result = "後悔するよ"
+    result = "もう止めよう"
 elif (0.30 < nalc <= 0.40):
-    result = "誰か止めて"
+    result = "明日に響くよ"
 elif  0.40 < nalc:
     result = "助けてください"
 
