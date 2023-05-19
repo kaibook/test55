@@ -46,5 +46,5 @@ elif (0.30 < nalc <= 0.40):
 elif  0.40 < nalc:
     result = "危険!!!"
 
-st.write("血中アルコール濃度:", nalc)
+st.write("血中アルコール濃度：", nalc)
 st.write("判定：", result)
