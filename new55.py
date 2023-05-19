@@ -48,18 +48,3 @@ elif  0.40 < nalc:
 
 st.write("血中アルコール濃度:", nalc)
 st.write("判定：", result)
-
-if result = "ゆっくり":
-    st.write("陽気になったり、皮膚が赤くなることがあります　参照：https://www.e-healthnet.mhlw.go.jp/information/dictionary/alcohol/ya-020.html")
-elif result = "ほろ酔い":
-    st.st.write("手の動きが活発になることがあります　参照：https://www.e-healthnet.mhlw.go.jp/information/dictionary/alcohol/ya-020.html")
-elif result = "少し早い":
-    st.st.write("立つとふらつくことがあります　参照：https://www.e-healthnet.mhlw.go.jp/information/dictionary/alcohol/ya-020.html")
-elif result = "早い！":
-    st.st.write("何度も同じことを話す、千鳥足になることがあります　参照：https://www.e-healthnet.mhlw.go.jp/information/dictionary/alcohol/ya-020.html")
-elif result = "警告!!":
-    st.st.write("意識がはっきりしない、立てないことがあります　参照：https://www.e-healthnet.mhlw.go.jp/information/dictionary/alcohol/ya-020.html")
-elif result = "危険!!!":
-    st.st.write("揺すり起こしても起きない、呼吸抑制から死亡に至ることがあります　参照：https://www.e-healthnet.mhlw.go.jp/information/dictionary/alcohol/ya-020.html")
-
-
