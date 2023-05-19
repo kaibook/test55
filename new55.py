@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("飲酒危険度チェッカー(ウィドマーク法)")
+st.title("飲酒ペースメーカー(ウィドマーク法)")
 
 x1 = st.number_input("ビール小ジョッキ(杯)",0,100,0)
 y1 = st.number_input("ビール中ジョッキ(杯)",0,100,0)
